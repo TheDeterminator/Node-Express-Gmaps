@@ -1,0 +1,38 @@
+{
+  "name": "node-express-gmaps",
+  "version": "1.0.0",
+  "description": "Lambda Google maps project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDeterminator/Node-Express-Gmaps.git"
+  },
+  "keywords": [
+    "maps",
+    "apis",
+    "google",
+    "lambda"
+  ],
+  "author": "Alec Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDeterminator/Node-Express-Gmaps/issues"
+  },
+  "homepage": "https://github.com/TheDeterminator/Node-Express-Gmaps#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.14.4",
+    "node-fetch": "^2.2.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
